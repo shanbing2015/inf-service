@@ -1,0 +1,13 @@
+#Port
+server:
+  port: 9000
+#spring配置
+spring:
+  application:
+  #服务名称
+    name: inf-service
+
+eureka:
+  client:
+    service-url:
+     defaultZone: http://localhost:8000/eureka/      #本地
